@@ -22,12 +22,12 @@ body {
 }
 
 #faq {
-    background-color: rgb(220,220,220);
+    background-color: rgb(240,248,255);
     width: 100%;
 }
 
 #schedule {
-    background-color: rgb(240,248,255);
+    background-color: rgb(220,220,220);
     width: 100%;
 }
 
@@ -91,6 +91,7 @@ body {
     margin-right: 50px;
 }
 .name, .role {
+    width: 180px;
     text-align: center;
 }
 .flex-rect  {
