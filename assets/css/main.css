@@ -23,7 +23,7 @@ section {
 }
 
 section .content {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -92,6 +92,7 @@ section .content .sam {
 .flex-box {
     flex: 50%;
     margin-bottom: 50px;
+    padding: 5px;
 }
 @media(max-width: 700px) {
   section .flex-box {
