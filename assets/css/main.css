@@ -43,6 +43,12 @@ section .content .sam {
   color: #951856;
 }
 
+@media(max-width: 700px) {
+  section .content .sam {
+    font-size: 20pt;
+  }
+}
+
 #header {
 	padding: 6em 0 2em 0;
 	background-image: url("background.jpg");
@@ -97,11 +103,17 @@ section .content .sam {
 @media(max-width: 700px) {
   section .flex-box {
     flex: 100%;
+    margin-bottom: 15px;
   }
 }
 
 .flex-box p {
     padding: 5px;
+}
+@media(max-width: 700px) {
+  .flex-box p {
+    padding: 0px;
+  }
 }
 
 .name, .role {
@@ -118,6 +130,12 @@ section .content .sam {
     text-align: center;
     color: #191970;
     padding: 10px 0 10px 0;
+}
+
+@media(max-width: 700px) {
+  .subtitle {
+    font-size: 14pt;
+  }
 }
 
 .icons {
@@ -139,6 +157,10 @@ table {
 @media(max-width: 700px) {
   table {
     width: 100%;
+  }
+  .image {
+    width: 300px !important;
+    height: auto !important;
   }
 }
 
