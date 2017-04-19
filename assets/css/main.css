@@ -92,6 +92,29 @@ section .content .sam {
     background-color: rgb(240,255,255);
 }
 
+.regbutton {
+  width: 275px;
+  margin: 0 auto;
+  margin-top: 15px;
+  background-color: rgba(255,255,255,0.8);
+  border: 1px solid #951856;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.8em;
+  transition: all 0.25s;
+}
+
+#signup .regbutton {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.regbutton:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+  border-radius: 2px;
+}
+
 .flex-container{
     display: -webkit-flex;
     display: flex;
