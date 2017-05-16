@@ -101,7 +101,46 @@ section .content .sam {
   border-radius: 5px;
   padding: 10px;
   font-size: 1.8em;
+  text-align: center;
   transition: all 0.25s;
+}
+
+.under {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.under .regbutton.amb {
+    text-align: right;
+}
+
+.under .regbutton {
+  flex: 100px;
+  margin: 5px;
+  margin-top: 15px;
+  background-color: rgba(255,255,255,0.8);
+  border: 1px solid #951856;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.3em;
+  transition: all 0.25s;
+}
+@media(max-width: 700px) {
+  .under {
+    flex-wrap: wrap;
+  }
+  .under .regbutton {
+    flex: 150px;
+    margin: 5px;
+    margin-top: 15px;
+    background-color: rgba(255,255,255,0.8);
+    border: 1px solid #951856;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.3em;
+    transition: all 0.25s;
+  }
 }
 
 #signup .regbutton {
