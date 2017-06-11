@@ -105,14 +105,15 @@ section .content .sam {
   transition: all 0.25s;
 }
 
+.regbutton.parent {
+  width: 400px;
+  font-size: 1.5em;
+}
+
 .under {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-}
-
-.under .regbutton.amb {
-    text-align: right;
 }
 
 .under .regbutton {
